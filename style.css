@@ -1,0 +1,132 @@
+div {
+  border-radius: 20%;
+}
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  position: relative;
+  animation: move 5s infinite;
+}
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin-left: 100px;
+  animation: move 5s infinite;
+}
+.tree {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin-left: 200px;
+  animation: color 5s infinite;
+}
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin-left: 200px;
+  animation: color 5s infinite;
+}
+.five {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  position: relative;
+  animation: move 5s infinite;
+}
+.six {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin-left: 200px;
+  animation: color 5s infinite;
+}
+.seven {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin-left: 100px;
+  animation: move 5s infinite;
+}
+.eight {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin-left: 200px;
+  animation: color 5s infinite;
+}
+.nine {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  position: relative;
+  animation: move 5s infinite;
+}
+.ten {
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
+  background-color: brown;
+  animation: color 5s infinite;
+}
+.eleven {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  background-color: brown;
+  animation: move 5s infinite;
+}
+.twelve {
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
+  background-color: brown;
+  animation: color 5s infinite;
+}
+
+@keyframes move {
+  0% {
+    top: 0px;
+    left: 0px;
+    background-color: rgb(75, 14, 14);
+  }
+  25% {
+    top: 0px;
+    left: 200px;
+    background-color: rgb(212, 5, 5);
+  }
+  50% {
+    top: 200px;
+    left: 200px;
+    background-color: rgb(143, 245, 42);
+  }
+  75% {
+    top: 200px;
+    left: 0px;
+    background-color: rgb(218, 11, 167);
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    background-color: rgb(252, 255, 53);
+  }
+}
+@keyframes color {
+  0% {
+    background-color: rgb(75, 14, 14);
+  }
+  25% {
+    background-color: rgb(125, 1, 1);
+  }
+  50% {
+    background-color: rgb(255, 117, 117);
+  }
+  75% {
+    background-color: rgb(108, 82, 82);
+  }
+  100% {
+    background-color: rgb(30, 22, 22);
+  }
+}
